@@ -19,13 +19,24 @@ export default function Login() {
   return (
     <div className="flex flex-col items-center justify-center min-w-96 mx-auto">
       <div className="login-container w-full p-6 rounded-lg shadow-md bg-gray-400 bg-clip-padding backdrop filter backdrop-blur-lg bg-opacity-0">
-        <h1 className="text-3xl font-semibold text-center text-gray-500">
-          Login <span className="text-blue-500">....</span>
+        <h1
+          className="text-3xl font-semibold text-center"
+          style={{ color: "rgb(229 129 186)" }}
+        >
+          Gossip
+          <span className="" style={{ color: "rgb(232 190 215)" }}>
+            Box
+          </span>
         </h1>
         <form onSubmit={handleSubmit}>
           <div>
             <label className="label p-2">
-              <span className="text-base label-text">Username</span>
+              <span
+                className="text-base label-text"
+                style={{ color: "rgb(232 190 215)" }}
+              >
+                Username
+              </span>
             </label>
             <input
               type="text"
@@ -39,7 +50,12 @@ export default function Login() {
           </div>
           <div>
             <label className="label p-2">
-              <span className="text-base label-text">Password</span>
+              <span
+                className="text-base label-text"
+                style={{ color: "rgb(232 190 215)" }}
+              >
+                Password
+              </span>
             </label>
             <input
               type="password"
@@ -54,6 +70,7 @@ export default function Login() {
           <Link
             to="/signup"
             className="link link-neutral mt-2 inline-block text-sm hover:underline hover:text-blue-600"
+            style={{ color: "rgb(232 190 215)" }}
           >
             Don't have an account?
           </Link>

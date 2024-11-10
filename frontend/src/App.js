@@ -10,7 +10,7 @@ export default function App() {
   const { authUser } = useAuthContext();
 
   return (
-    <div className="h-screen flex items-center justify-center bg-blue-200">
+    <div className="app-container" >
       <Routes>
         <Route
           path="/"

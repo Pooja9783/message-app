@@ -37,7 +37,7 @@ export default function SearchInput() {
         placeholder="Search..."
         className="input rounded-full focus:outline-none"
       />
-      <button type="submit" className="btn btn-circle bg-sky-500 text-white">
+      <button type="submit" className="btn btn-circle bg-[rgb(35,2,21)] text-white">
         <IoSearch className="w-6 h-6 outline-none" />
       </button>
     </form>

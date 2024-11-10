@@ -1,5 +1,16 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
-    
+}
+
+.app-container {
+    background-image: url('./assets/landing-page-bg-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

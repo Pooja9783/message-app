@@ -25,14 +25,14 @@ export default function SignUp() {
 
   return (
     <div className="flex flex-col items-center justify-center min-w-96 mx-auto">
-      <div className="login-container w-full p-6 rounded-lg shadow-md bg-gray-400 bg-clip-padding backdrop filter backdrop-blur-lg bg-opacity-0">
-        <h1 className="text-3xl font-semibold text-center text-gray-500">
-          Sign Up <span className="text-blue-500">....</span>
+      <div className="login-container w-full p-6 rounded-lg shadow-md bg-gray-400 bg-clip-padding backdrop filter backdrop-blur-lg bg-opacity-0" style={{backgroundImage:'url(bgImage)'}}>
+        <h1 className="text-3xl font-semibold text-center" style={{color:'rgb(229 129 186)'}}>
+          Gossip<span className="" style={{color:'rgb(232 190 215)'}}>Box</span>
         </h1>
         <form onSubmit={handleSubmit}>
           <div>
             <label className="label p-2">
-              <span className="text-base label-text">Full Name</span>
+              <span className="text-base label-text" style={{color:'rgb(232 190 215)'}}>Full Name</span>
             </label>
             <input
               type="text"
@@ -46,7 +46,7 @@ export default function SignUp() {
           </div>
           <div>
             <label className="label p-2">
-              <span className="text-base label-text">Username</span>
+              <span className="text-base label-text" style={{color:'rgb(232 190 215)'}}>Username</span>
             </label>
             <input
               type="text"
@@ -60,7 +60,7 @@ export default function SignUp() {
           </div>
           <div>
             <label className="label p-2">
-              <span className="text-base label-text">Password</span>
+              <span className="text-base label-text" style={{color:'rgb(232 190 215)'}}>Password</span>
             </label>
             <input
               type="password"
@@ -74,7 +74,7 @@ export default function SignUp() {
           </div>
           <div>
             <label className="label p-2">
-              <span className="text-base label-text">Confirm Password</span>
+              <span className="text-base label-text" style={{color:'rgb(232 190 215)'}}>Confirm Password</span>
             </label>
             <input
               type="password"
@@ -89,20 +89,23 @@ export default function SignUp() {
 
           <div className="flex items-center">
             <label className="label p-2">
-              <span className="text-base label-text">Male</span>
+              <span className="text-base label-text" style={{color:'rgb(232 190 215)'}}>Male</span>
             </label>
             <input
               type="checkbox"
               className="checkbox border-slate-900"
+              style={{borderColor:'rgb(232 190 215)'}}
+
               checked={inputs.gender === "male"}
               onChange={() => handleCheckBox("male")}
             />
             <label className="label p-2">
-              <span className="text-base label-text">female</span>
+              <span className="text-base label-text" style={{color:'rgb(232 190 215)'}}>female</span>
             </label>
             <input
               type="checkbox"
               className="checkbox border-slate-900"
+              style={{borderColor:'rgb(232 190 215)'}}
               checked={inputs.gender === "female"}
               onChange={() => handleCheckBox("female")}
             />
@@ -111,7 +114,8 @@ export default function SignUp() {
           <Link
             to="/login"
             className="link link-neutral mt-2 inline-block text-sm hover:underline hover:text-blue-600"
-          >
+            style={{color:'rgb(232 190 215)'}}
+        >
             Already have an account?
           </Link>
           <div>

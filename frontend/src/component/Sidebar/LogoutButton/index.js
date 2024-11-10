@@ -11,6 +11,8 @@ export default function LoginButton() {
           <CiLogout
             className="w-6 h-6 text-gray-600 cursor-pointer"
             onClick={logout}
+            style={{color:'rgb(35 2 21)'}}
+
           />
         </>
       ) : (
