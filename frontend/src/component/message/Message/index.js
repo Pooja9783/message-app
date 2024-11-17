@@ -18,7 +18,7 @@ export default function Message({ message }) {
   const shouldShake = message.shouldShake ? "shake" : "";
 
   return (
-    <div className={`chat ${chatClassName}`}>
+    <div className={`chat ${chatClassName} w-[880px]`}>
       <div className="chat-image avatar">
         <div className="w-10 rounded-full">
           <img alt="chat-pic" src={profilePic} />

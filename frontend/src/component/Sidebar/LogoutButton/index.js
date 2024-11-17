@@ -9,11 +9,9 @@ export default function LoginButton() {
       {!loading ? (
         <>
           <CiLogout
-            className="w-6 h-6 text-gray-600 cursor-pointer"
+            className="w-6 h-6 text-[#e7e0e0]  cursor-pointer"
             onClick={logout}
-            style={{color:'rgb(35 2 21)'}}
-
-          />
+            style={{ strokeWidth: 1}}         />
         </>
       ) : (
         <span className="loading loading-spinner"></span>

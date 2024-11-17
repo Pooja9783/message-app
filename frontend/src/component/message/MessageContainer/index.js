@@ -40,7 +40,7 @@ export default function MessageContainer() {
 const NoChatSelected = () => {
   const { authUser } = useAuthContext();
   return (
-    <div className="flex items-center justify-center w-full h-full">
+    <div className="flex items-center justify-center w-[1000px] h-full">
       <div className="px-4 text-center sm:text-lg md:text-xl text-gray-200 font-semibold flex flex-col gap-2">
         <p className="text-black">Welcome {authUser.fullName}</p>
         <p className="text-black">Start your chat</p>

@@ -36,6 +36,7 @@ export const SocketContextProvider = ({ children }) => {
         setSocket(null);
       }
     }
+    // eslint-disable-next-line
   }, [authUser]);
 
   return (

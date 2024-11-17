@@ -6,7 +6,7 @@ import useListendMessages from "../../../hooks/useListendMessages";
 
 export default function Messages() {
   const { messages, loading } = useGetMessage();
-useListendMessages();
+  useListendMessages();
   const lastMessage = useRef();
 
   useEffect(() => {
@@ -16,7 +16,7 @@ useListendMessages();
   }, [messages]);
 
   return (
-    <div className="px-4 flex-1 overflow-auto">
+    <div className="px-4 flex-1 overflow-auto w-[920px]">
       {!loading &&
         messages.length > 0 &&
         messages.map((message) => (
@@ -26,7 +26,7 @@ useListendMessages();
         ))}
       {loading && [...Array(3)].map((_, i) => <MessageSkeleton key={i} />)}
       {!loading && messages.length === 0 && (
-        <p className="text-center">Send a message to start the conversation</p>
+        <p className="text-center text-[#e7e0e0]">Send a message to start the conversation</p>
       )}
     </div>
   );
