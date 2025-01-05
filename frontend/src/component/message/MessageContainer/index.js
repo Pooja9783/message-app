@@ -27,11 +27,9 @@ export default function MessageContainer() {
               </span>
             </div>
             <Messages />
-
             <MessageInput />
           </>
         )}
-        {/* <Header /> */}
       </>
     </div>
   );
