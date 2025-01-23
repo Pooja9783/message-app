@@ -24,7 +24,12 @@ https://message-app-prod.onrender.com/
 
 
 ## Screenshots
-https://github.com/Pooja9783/message-app/blob/master/Source/chat-app.png
-https://github.com/Pooja9783/message-app/blob/master/Source/chat-app-2.png
+### Login Page
+![Login page](https://github.com/Pooja9783/message-app/blob/master/Source/chat-app.png)
+
+### Chat Page
+![Chat page](https://github.com/Pooja9783/message-app/blob/master/Source/chat-app-2.png)
+
+
 
 
