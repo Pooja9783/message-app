@@ -24,10 +24,7 @@ https://message-app-prod.onrender.com/
 
 
 ## Screenshots
-### Login Page
-![login page](https://github.com/Pooja9783/share-me-app/blob/master/Source/login.png)
-
-### Chat Page
-![Home page](https://github.com/Pooja9783/share-me-app/blob/master/Source/home.png)
+https://github.com/Pooja9783/message-app/blob/master/Source/chat-app.png
+https://github.com/Pooja9783/message-app/blob/master/Source/chat-app-2.png
 
 
